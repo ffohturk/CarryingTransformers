@@ -1,5 +1,7 @@
 # Carrying over algorithm in transformers
 
+Github repository accompanying paper: [Carrying over algorithm in transformers](https://arxiv.org/abs/2401.07993)
+
 The folders contain:
 
 1. **Alpaca 7B:** Contains the code and data to extract the relevant attention patterns from Alpaca 7B (not provided). We also included the arrangement of the data in the residual stream for both after the attention and MLP in each layer and labelled the data according to task and the target digit (first 4 generated tokens only). For the latter labelling we experimented with different labellings, but decided to label the first two generated tokens with the first target digit and use the second target digit for the other generated tokens. This is a bit arbitrary, but does show the model is arranging the data in a particular and interpretable way.
